@@ -1,3 +1,12 @@
-export default function main(value) {
-	return typeof value === 'string';
+/* eslint-disable unicorn/prefer-spread */
+export default function curry(func) {
+	return function curried(...args) {
+		if (args.length >= func.length) {
+			return func.apply(this, args);
+		}
+
+		return function (...args2) {
+			return curried.apply(this, args.concat(args2));
+		};
+	};
 }

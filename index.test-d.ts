@@ -1,4 +1,5 @@
+/* eslint-disable @typescript-eslint/no-empty-function */
 import {expectType} from 'tsd';
-import main from './index.js';
+import curry from './index.js';
 
-expectType<boolean>(main('hello'));
+expectType<() => void>(curry(() => {}));
