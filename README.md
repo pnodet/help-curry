@@ -2,9 +2,9 @@
 > Small js package I use to quickly curry functions
 
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
-![GitHub repo size](https://img.shields.io/github/repo-size/pnxdxt/help-curry)
-![GitHub workflow status](https://img.shields.io/github/workflow/status/pnxdxt/help-curry/CI)
-![npm downloads](https://img.shields.io/npm/dt/help-curry)
+[![GitHub workflow status](https://img.shields.io/github/workflow/status/pnxdxt/help-curry/CI)](https://github.com/pnxdxt/help-curry)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/help-curry)](https://bundlephobia.com/package/help-curry)
+[![npm downloads](https://img.shields.io/npm/dt/help-curry)](https://www.npmjs.com/package/help-curry)
 
 ## Install
 ```
