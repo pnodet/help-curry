@@ -1,6 +1,6 @@
 {
 	"name": "help-curry",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Small template I use to quickly create npm packages",
 	"scripts": {
 		"lint": "xo --fix",
