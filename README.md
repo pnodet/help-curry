@@ -8,7 +8,7 @@
 
 ## Install
 ```
-$ npm install pkg-name
+$ npm install help-curry
 ```
 ## Import
 
